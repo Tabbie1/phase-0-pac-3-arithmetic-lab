@@ -37,14 +37,12 @@ function decrement(a=419){
 
     return `${a-1}`;
 }
-function makeInt(){
-  
-}
+
 
 function makeInt(n=573){
-  return `${n}`;
+    return parseInt(`${n}`, 10);
 }
 
 function preserveDecimal(n){
-    return parseFloat("2.222");
+    return parseFloat(n);
 }
